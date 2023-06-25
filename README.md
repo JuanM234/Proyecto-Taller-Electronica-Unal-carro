@@ -6,6 +6,9 @@
 
 ## DESCRIPCIÓN
 Este proyecto consiste en el diseño y desarrollo de un carrito controlado de forma remota mediante WiFi utilizando el potente módulo ESP32. El carrito ofrece movilidad ágil y emite una red WiFi, lo que permite su control desde cualquier dispositivo dentro del alcance de la red.
+
+## IDEA INICIAL
+se tenia pensado que el carrito se manejara con un guante mediante wifi, pero por tiempo y otras circusntancias no se logro, sin embargo, se busco culminar el proyecto, y que se controle mediante wifi.
 ## INTRODUCCIÓN
 nuestro proeycto consiste de un carrito controlado por WiFi mediante un ESP32. Este carrito inteligente se conecta a una red WiFi y se puede controlar desde cualquier lugar dentro del alcance. Utilizando una interfaz en un dispositivo móvil o computadora, se pueden enviar comandos de control para avanzar, retroceder, girar y detenerse.  Este proyecto es una oportunidad fascinante para aprender sobre programación, electrónica y comunicación inalámbrica en un contexto práctico y universitario.
 ## MOTIVACIÓN
