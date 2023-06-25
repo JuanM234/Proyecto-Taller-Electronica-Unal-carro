@@ -5,7 +5,7 @@
 </p>
 
 ## DESCRIPCIÓN
-Este proyecto consiste en el diseño y desarrollo de un carrito controlado de forma remota mediante WiFi utilizando el potente módulo ESP32. El carrito ofrece movilidad ágil y se conecta a una red WiFi, lo que permite su control desde cualquier dispositivo dentro del alcance de la red.
+Este proyecto consiste en el diseño y desarrollo de un carrito controlado de forma remota mediante WiFi utilizando el potente módulo ESP32. El carrito ofrece movilidad ágil y emite una red WiFi, lo que permite su control desde cualquier dispositivo dentro del alcance de la red.
 ## INTRODUCCIÓN
 nuestro proeycto consiste de un carrito controlado por WiFi mediante un ESP32. Este carrito inteligente se conecta a una red WiFi y se puede controlar desde cualquier lugar dentro del alcance. Utilizando una interfaz en un dispositivo móvil o computadora, se pueden enviar comandos de control para avanzar, retroceder, girar y detenerse.  Este proyecto es una oportunidad fascinante para aprender sobre programación, electrónica y comunicación inalámbrica en un contexto práctico y universitario.
 ## MOTIVACIÓN
@@ -62,4 +62,17 @@ A pesar de los esfuerzos realizados, es importante tener en cuenta las siguiente
 3. Estabilidad de la conexión: La calidad de la conexión WiFi puede variar dependiendo de la interferencia y la congestión de la red. Esto puede afectar la respuesta y la estabilidad del control remoto.
 4. Autonomía limitada: La duración de la batería del carrito dependerá del consumo de energía y la capacidad de la batería utilizada. Es posible que se requiera recargar o reemplazar la batería después de un período de uso prolongado.
 5. Capacidades de carga: El carrito está diseñado para transportar cargas ligeras y no está diseñado para transportar objetos pesados o voluminosos. Se recomienda respetar las limitaciones de carga especificadas en el diseño del chasis y los motores.
+
+## PROCESO DEL PROYECTO
+   El proyecto se inició utilizando Arduino como plataforma inicial para realizar pruebas y prototipado. En esta etapa, el equipo se enfocó en comprender los conceptos básicos de la electrónica y la programación necesarios para construir un carrito controlado por WiFi. Durante este proceso, enfrentaron un desafío relacionado con la alimentación. Descubrieron que era necesario alimentar por separado tanto el Arduino como el módulo L298N, que se utilizaba para controlar los motores del carrito. Esta configuración generaba una mayor complejidad y requería fuentes de alimentación adicionales.
+
+A medida que el proyecto avanzaba, el equipo se dedicó a buscar una solución más integrada y eficiente en términos de alimentación. Después de investigar y explorar diferentes opciones, se decidió utilizar baterías de ion de litio 18650. Estas baterías ofrecían una mayor capacidad y permitían alimentar de manera simultánea todos los componentes del sistema, incluyendo el Arduino, el módulo L298N y el ESP32. Esta mejora fue clave para simplificar la configuración y lograr un solo sistema compacto y autónomo.
+
+Además de las mejoras en la alimentación, el equipo decidió migrar de Arduino a ESP32 para aprovechar sus capacidades de conectividad WiFi. La ESP32 proporcionaba una mayor flexibilidad y posibilitaba el control remoto del carrito a través de una conexión inalámbrica. Esta transición permitió expandir las funcionalidades del proyecto y abrir nuevas posibilidades de interacción y control.
+
+A medida que el proyecto avanzaba, el equipo adquirió experiencia en el diseño de circuitos impresos y decidió crear una PCB personalizada. Esta PCB, diseñada específicamente para el proyecto, permitió una mejor organización y conexión de los componentes, reduciendo el espacio ocupado y mejorando la estética general del carrito. El diseño de la PCB implicó la disposición adecuada de los componentes, la conexión de las pistas de cobre y la verificación de la integridad del circuito.
+
+Con el paso del tiempo, el proyecto evolucionó hasta llegar a su estado final. El carrito, completamente funcional, es capaz de ser controlado de forma remota mediante una conexión WiFi gracias al ESP32. Todas las mejoras y optimizaciones realizadas a lo largo del desarrollo se encuentran integradas en el diseño final del proyecto. La PCB personalizada se encuentra implementada y proporciona una solución robusta y compacta.
+
+En resumen, el proceso de desarrollo del proyecto implicó la superación de desafíos iniciales relacionados con la alimentación y la integración de componentes. A través de iteraciones y mejoras continuas, el equipo logró diseñar una PCB personalizada y alcanzar el estado final del proyecto, donde el carrito es capaz de ser controlado de forma remota y cuenta con un sistema de alimentación integrado y eficiente.
 
