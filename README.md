@@ -8,7 +8,7 @@
 Este proyecto consiste en el diseño y desarrollo de un carrito controlado de forma remota mediante WiFi utilizando el potente módulo ESP32. El carrito ofrece movilidad ágil y emite una red WiFi, lo que permite su control desde cualquier dispositivo dentro del alcance de la red.
 
 ## IDEA INICIAL
-se tenia pensado que el carrito se manejara con un guante mediante wifi, pero por tiempo y otras circusntancias no se logro, sin embargo, se busco culminar el proyecto, y que se controle mediante wifi.
+se tenia pensado que el carrito se manejara con un guante mediante wifi, pero por tiempo y otras circusntancias no se logro, sin embargo, se busco culminar el proyecto, y que se controle mediante wifi, Tambien en un principio se queria usar una esp32 cam pero dado que en un error se daño una, y al conseguir otra no nos daba la señal wifi, optamos por una esp 32 normal.
 ## INTRODUCCIÓN
 nuestro proeycto consiste de un carrito controlado por WiFi mediante un ESP32. Este carrito inteligente se conecta a una red WiFi y se puede controlar desde cualquier lugar dentro del alcance. Utilizando una interfaz en un dispositivo móvil o computadora, se pueden enviar comandos de control para avanzar, retroceder, girar y detenerse.  Este proyecto es una oportunidad fascinante para aprender sobre programación, electrónica y comunicación inalámbrica en un contexto práctico y universitario.
 ## MOTIVACIÓN
@@ -71,7 +71,9 @@ A pesar de los esfuerzos realizados, es importante tener en cuenta las siguiente
 
 A medida que el proyecto avanzaba, el equipo se dedicó a buscar una solución más integrada y eficiente en términos de alimentación. Después de investigar y explorar diferentes opciones, se decidió utilizar baterías de ion de litio 18650. Estas baterías ofrecían una mayor capacidad y permitían alimentar de manera simultánea todos los componentes del sistema, incluyendo el Arduino, el módulo L298N y el ESP32. Esta mejora fue clave para simplificar la configuración y lograr un solo sistema compacto y autónomo.
 
-Además de las mejoras en la alimentación, el equipo decidió migrar de Arduino a ESP32 para aprovechar sus capacidades de conectividad WiFi. La ESP32 proporcionaba una mayor flexibilidad y posibilitaba el control remoto del carrito a través de una conexión inalámbrica. Esta transición permitió expandir las funcionalidades del proyecto y abrir nuevas posibilidades de interacción y control.
+Además de las mejoras en la alimentación, el equipo decidió migrar de Arduino a ESP32CAM en un momento para aprovechar sus capacidades de conectividad WiFi y Camara, pero en un descuido se nos daño, y al conseguir otra no nos daba la señal que necesitamoss.
+
+asi que emigramos a la ESP32 estandar. La ESP32 proporcionaba una mayor flexibilidad y posibilitaba el control remoto del carrito a través de una conexión inalámbrica. Esta transición permitió expandir las funcionalidades del proyecto y abrir nuevas posibilidades de interacción y control.
 
 A medida que el proyecto avanzaba, el equipo adquirió experiencia en el diseño de circuitos impresos y decidió crear una PCB personalizada. Esta PCB, diseñada específicamente para el proyecto, permitió una mejor organización y conexión de los componentes, reduciendo el espacio ocupado y mejorando la estética general del carrito. El diseño de la PCB implicó la disposición adecuada de los componentes, la conexión de las pistas de cobre y la verificación de la integridad del circuito.
 
