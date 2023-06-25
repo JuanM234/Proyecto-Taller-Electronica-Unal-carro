@@ -41,3 +41,25 @@ Componentes usados en el proeycto:
 - Cables: Para realizar las conexiones entre los componentes.
 - Pin headers o regleta de pines: Para facilitar la conexión de los componentes al ESP32.
 
+## Objetivos del Proyecto
+
+El objetivo principal de este proyecto es diseñar y desarrollar un carro manejado por WiFi utilizando un ESP32, con el fin de explorar y aplicar conocimientos de electrónica y programación. A continuación se detallan los objetivos específicos:
+
+1. Construir o conseguir un chasis que albergue los componentes del carro.
+2. Conectar y configurar el ESP32 para establecer la conectividad WiFi y permitir el control remoto.
+3. Implementar el control de los motores DC para lograr el movimiento del carro en diferentes direcciones.
+4. Optimizar el consumo de energía del sistema para una mayor autonomía y eficiencia energética.
+5. Realizar pruebas exhaustivas y depuración para asegurar el correcto funcionamiento del carro.
+6. Documentar detalladamente el proceso de construcción, configuración y uso del carro en el archivo README.
+7. Promover la colaboración y participación del grupo de Taller.
+
+## Limitaciones del Proyecto
+
+A pesar de los esfuerzos realizados, es importante tener en cuenta las siguientes limitaciones del proyecto:
+
+1. Alcance del control: El carrito podrá ser controlado de forma remota dentro del alcance de la red WiFi. Fuera de este rango, no se podrá establecer la conexión ni controlar el carrito.
+2. Obstáculos y terreno: El desempeño del carrito puede verse afectado por la presencia de obstáculos y el tipo de terreno en el que se utilice. Se recomienda utilizarlo en superficies lisas y sin obstrucciones para obtener un mejor rendimiento.
+3. Estabilidad de la conexión: La calidad de la conexión WiFi puede variar dependiendo de la interferencia y la congestión de la red. Esto puede afectar la respuesta y la estabilidad del control remoto.
+4. Autonomía limitada: La duración de la batería del carrito dependerá del consumo de energía y la capacidad de la batería utilizada. Es posible que se requiera recargar o reemplazar la batería después de un período de uso prolongado.
+5. Capacidades de carga: El carrito está diseñado para transportar cargas ligeras y no está diseñado para transportar objetos pesados o voluminosos. Se recomienda respetar las limitaciones de carga especificadas en el diseño del chasis y los motores.
+
