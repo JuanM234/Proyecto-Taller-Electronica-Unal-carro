@@ -69,15 +69,36 @@ A pesar de los esfuerzos realizados, es importante tener en cuenta las siguiente
 ## PROCESO DEL PROYECTO
    El proyecto se inició utilizando Arduino como plataforma inicial para realizar pruebas y prototipado. En esta etapa, el equipo se enfocó en comprender los conceptos básicos de la electrónica y la programación necesarios para construir un carrito controlado por WiFi. Durante este proceso, enfrentaron un desafío relacionado con la alimentación. Descubrieron que era necesario alimentar por separado tanto el Arduino como el módulo L298N, que se utilizaba para controlar los motores del carrito. Esta configuración generaba una mayor complejidad y requería fuentes de alimentación adicionales.
 
+   
+![carro con 9V (1)](https://github.com/JuanM234/Proyecto-Taller-Electronica-Unal-carro/assets/44301882/97590b96-42a3-4d3c-867b-06ad80fcdb40)
+
+
 A medida que el proyecto avanzaba, el equipo se dedicó a buscar una solución más integrada y eficiente en términos de alimentación. Después de investigar y explorar diferentes opciones, se decidió utilizar baterías de ion de litio 18650. Estas baterías ofrecían una mayor capacidad y permitían alimentar de manera simultánea todos los componentes del sistema, incluyendo el Arduino, el módulo L298N y el ESP32. Esta mejora fue clave para simplificar la configuración y lograr un solo sistema compacto y autónomo.
+
+![carro con pilas (1)](https://github.com/JuanM234/Proyecto-Taller-Electronica-Unal-carro/assets/44301882/2f9b6444-02d5-47fc-aaa8-600a7715b5e6)
+
 
 Además de las mejoras en la alimentación, el equipo decidió migrar de Arduino a ESP32CAM en un momento para aprovechar sus capacidades de conectividad WiFi y Camara, pero en un descuido se nos daño, y al conseguir otra no nos daba la señal que necesitamoss.
 
-asi que emigramos a la ESP32 estandar. La ESP32 proporcionaba una mayor flexibilidad y posibilitaba el control remoto del carrito a través de una conexión inalámbrica. Esta transición permitió expandir las funcionalidades del proyecto y abrir nuevas posibilidades de interacción y control.
+
+![photo_4956718763454081936_y (1)](https://github.com/JuanM234/Proyecto-Taller-Electronica-Unal-carro/assets/44301882/782afba0-afd4-42a0-980e-76d3317f0759)
+
+
+asi que emigramos nuevamente a la ESP32 estandar. La ESP32 proporcionaba una mayor flexibilidad y posibilitaba el control remoto del carrito a través de una conexión inalámbrica. Esta transición permitió expandir las funcionalidades del proyecto y abrir nuevas posibilidades de interacción y control.
+
+
+![photo_4956718763454081932_y (3)](https://github.com/JuanM234/Proyecto-Taller-Electronica-Unal-carro/assets/44301882/3daa2fa2-6981-4589-875b-f88f6205a74e)
+
 
 A medida que el proyecto avanzaba, el equipo adquirió experiencia en el diseño de circuitos impresos y decidió crear una PCB personalizada. Esta PCB, diseñada específicamente para el proyecto, permitió una mejor organización y conexión de los componentes, reduciendo el espacio ocupado y mejorando la estética general del carrito. El diseño de la PCB implicó la disposición adecuada de los componentes, la conexión de las pistas de cobre y la verificación de la integridad del circuito.
 
+![photo_4956718763454081933_y (1) (1) (1)](https://github.com/JuanM234/Proyecto-Taller-Electronica-Unal-carro/assets/44301882/2ae84c39-21ed-4f58-bf6a-aa0a9acd1fcf)
+
+
 Con el paso del tiempo, el proyecto evolucionó hasta llegar a su estado final. El carrito, completamente funcional, es capaz de ser controlado de forma remota mediante una conexión WiFi gracias al ESP32. Todas las mejoras y optimizaciones realizadas a lo largo del desarrollo se encuentran integradas en el diseño final del proyecto. La PCB personalizada se encuentra implementada y proporciona una solución robusta y compacta.
+
+![photo_4956718763454081934_y (1)](https://github.com/JuanM234/Proyecto-Taller-Electronica-Unal-carro/assets/44301882/6f1065a8-b072-48b1-901f-89571fbb7dbf)
+
 
 En resumen, el proceso de desarrollo del proyecto implicó la superación de desafíos iniciales relacionados con la alimentación y la integración de componentes. A través de iteraciones y mejoras continuas, el equipo logró diseñar una PCB personalizada y alcanzar el estado final del proyecto, donde el carrito es capaz de ser controlado de forma remota y cuenta con un sistema de alimentación integrado y eficiente.
 
