@@ -1,5 +1,5 @@
 ## <p align="center"><b> PROYECTO TALLER DE ELECTRÓNICA - CARRO MANEJADO POR WIFI</b></p>
-
+<p align="center"><b> Juan Miguel Lebaza Ordóñez - Wilson Sebastián Ruge - Juan Sebastian Rojas</b></p>
 <p align="center">
   <img src="https://github.com/JuanM234/Proyecto-Taller-Electronica-Unal-carro/assets/44301882/784a3386-ab00-4799-9a4a-0ec6e99949c8" alt="Descripción de la imagen">
 </p>
